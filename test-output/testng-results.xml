@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-02-20T23:42:57 IST" name="Suite" finished-at="2021-02-20T23:43:12 IST" duration-ms="15744">
+    <groups>
+    </groups>
+    <test started-at="2021-02-20T23:42:57 IST" name="TestOnChrome" finished-at="2021-02-20T23:43:09 IST" duration-ms="12369">
+      <class name="scripts.Test_Login_Page">
+        <test-method is-config="true" signature="Open_application(java.lang.String)[pri:0, instance:scripts.Test_Login_Page@1ed4ae0f]" started-at="2021-02-20T23:42:57 IST" name="Open_application" finished-at="2021-02-20T23:43:03 IST" duration-ms="5789" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Open_application -->
+        <test-method signature="login()[pri:0, instance:scripts.Test_Login_Page@1ed4ae0f]" started-at="2021-02-20T23:43:03 IST" name="login" finished-at="2021-02-20T23:43:05 IST" duration-ms="2336" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="Close_application(org.testng.ITestResult)[pri:0, instance:scripts.Test_Login_Page@1ed4ae0f]" started-at="2021-02-20T23:43:05 IST" name="Close_application" finished-at="2021-02-20T23:43:09 IST" duration-ms="4208" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login status=SUCCESS method=Test_Login_Page.login()[pri:0, instance:scripts.Test_Login_Page@1ed4ae0f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close_application -->
+      </class> <!-- scripts.Test_Login_Page -->
+    </test> <!-- TestOnChrome -->
+    <test started-at="2021-02-20T23:42:57 IST" name="TestOnfirefox" finished-at="2021-02-20T23:43:12 IST" duration-ms="15744">
+      <class name="scripts.Test_Login_Page">
+        <test-method is-config="true" signature="Open_application(java.lang.String)[pri:0, instance:scripts.Test_Login_Page@19e4653c]" started-at="2021-02-20T23:42:57 IST" name="Open_application" finished-at="2021-02-20T23:43:07 IST" duration-ms="10183" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Open_application -->
+        <test-method signature="login()[pri:0, instance:scripts.Test_Login_Page@19e4653c]" started-at="2021-02-20T23:43:07 IST" name="login" finished-at="2021-02-20T23:43:11 IST" duration-ms="3754" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="Close_application(org.testng.ITestResult)[pri:0, instance:scripts.Test_Login_Page@19e4653c]" started-at="2021-02-20T23:43:11 IST" name="Close_application" finished-at="2021-02-20T23:43:12 IST" duration-ms="1777" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login status=SUCCESS method=Test_Login_Page.login()[pri:0, instance:scripts.Test_Login_Page@19e4653c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close_application -->
+      </class> <!-- scripts.Test_Login_Page -->
+    </test> <!-- TestOnfirefox -->
+  </suite> <!-- Suite -->
+</testng-results>
